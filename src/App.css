@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+li{
+  list-style: none;
+  padding: 10px 50px;
+  background-color: #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+input, select, option{
+  height: 40px;
+  border-radius: 5px;
+}
+
+input{
+  width: 200px;
+  border: 1px solid #5e5e5e;
+}
+
+.search-filter{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
